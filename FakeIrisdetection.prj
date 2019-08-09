@@ -1,0 +1,182 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="755069697" file="E:\New folder\Project\FakeIrisdetection.prj" location="E:\New folder\Project" name="FakeIrisdetection" preferred-package-location="E:\New folder\Project\FakeIrisdetection\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Livirs</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>ishwor</param.authnamewatermark>
+    <param.email>ishwor.bogatit5@gmail.com</param.email>
+    <param.company>Majorproject</param.company>
+    <param.summary>Checks iris liveness and recognize the iris.</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\ishwor-lakashmi\Pictures\images.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\Majorproject\Livirs\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\FakeIrisdetection\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\FakeIrisdetection\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\FakeIrisdetection\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\FakeIrisdetection</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Index.mlapp</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\back.png</file>
+      <file>${PROJECT_ROOT}\Compare_Iris.mlapp</file>
+      <file>${PROJECT_ROOT}\drawcircle.m</file>
+      <file>${PROJECT_ROOT}\gen_compare.fig</file>
+      <file>${PROJECT_ROOT}\gen_compare.m</file>
+      <file>${PROJECT_ROOT}\gen_templateVVV.m</file>
+      <file>${PROJECT_ROOT}\getring.m</file>
+      <file>${PROJECT_ROOT}\hammingdist.m</file>
+      <file>${PROJECT_ROOT}\icon.png</file>
+      <file>${PROJECT_ROOT}\icon1.gif</file>
+      <file>${PROJECT_ROOT}\imageProcess.m</file>
+      <file>${PROJECT_ROOT}\index.fig</file>
+      <file>${PROJECT_ROOT}\index.m</file>
+      <file>${PROJECT_ROOT}\Index.mlapp</file>
+      <file>${PROJECT_ROOT}\Index2.mlapp</file>
+      <file>${PROJECT_ROOT}\Iris_index.mlapp</file>
+      <file>${PROJECT_ROOT}\Iris_indexa.mlapp</file>
+      <file>${PROJECT_ROOT}\iris_system.fig</file>
+      <file>${PROJECT_ROOT}\iris_system.m</file>
+      <file>${PROJECT_ROOT}\irisavi.avi</file>
+      <file>${PROJECT_ROOT}\keyGen.m</file>
+      <file>${PROJECT_ROOT}\lineint.m</file>
+      <file>${PROJECT_ROOT}\live.fig</file>
+      <file>${PROJECT_ROOT}\live.m</file>
+      <file>${PROJECT_ROOT}\liveness.mlapp</file>
+      <file>${PROJECT_ROOT}\localisation.fig</file>
+      <file>${PROJECT_ROOT}\localisation.m</file>
+      <file>${PROJECT_ROOT}\localisation2.m</file>
+      <file>${PROJECT_ROOT}\main.fig</file>
+      <file>${PROJECT_ROOT}\main.m</file>
+      <file>${PROJECT_ROOT}\normaliseiris.m</file>
+      <file>${PROJECT_ROOT}\partiald.m</file>
+      <file>${PROJECT_ROOT}\README.md</file>
+      <file>${PROJECT_ROOT}\search.m</file>
+      <file>${PROJECT_ROOT}\Tamplate_gen.mlapp</file>
+      <file>${PROJECT_ROOT}\thresh.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\FakeIrisdetection\for_testing" name="readme.txt" optional="true">E:\New folder\Project\FakeIrisdetection\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\FakeIrisdetection\for_testing" name="Livirs.exe" optional="false">E:\New folder\Project\FakeIrisdetection\for_testing\Livirs.exe</file>
+      <file location="${PROJECT_ROOT}\FakeIrisdetection\for_testing" name="splash.png" optional="false">E:\New folder\Project\FakeIrisdetection\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Software\installed\Matlab2018a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
